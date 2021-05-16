@@ -4,16 +4,15 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: joebartel/assets/css
-  label: Background
-  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
 - type: jekyll-pages
   label: Pages
   create: all
+- type: document
+  path: joebartel/assets/css
+  label: Background
 upload_dir: joebartel/assets
 public_path: "/uploads"
 front_matter_path: ''
