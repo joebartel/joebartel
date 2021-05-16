@@ -11,7 +11,7 @@ sections:
   label: Pages
   create: all
 - type: document
-  path: joebartel/_sass/main.scss
+  path: _sass/main.scss
   label: Background
 - type: heading
   label: heading?
