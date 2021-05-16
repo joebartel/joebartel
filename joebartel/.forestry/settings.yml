@@ -13,6 +13,8 @@ sections:
 - type: document
   path: joebartel/assets/css
   label: Background
+- type: heading
+  label: heading?
 upload_dir: joebartel/assets
 public_path: "/uploads"
 front_matter_path: ''
