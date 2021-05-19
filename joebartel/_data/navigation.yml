@@ -1,6 +1,10 @@
-- name: Home
-  link: /
-- name: About
+- name: CONTACT
+  link: /contact.html
+- name: ABOUT
   link: /about.html
-- name: Blog
-  link: /blog.html
+- name: LISTEN
+  link: https://joebartel.bandcamp.com/
+- name: MERCH
+  link: https://joebartel.bandcamp.com/merch
+- name: SHOWS
+  link: https://www.bandsintown.com/a/1333284-joe-bartel
