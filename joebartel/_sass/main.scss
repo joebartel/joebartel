@@ -17,7 +17,10 @@ body {
     color: white;
 }
 
-p {margin-bottom: 1rem;}
+p {
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+}
 
 h1, h2, h3, h4, h5 {
   margin: 3rem 0 1.38rem;
@@ -44,23 +47,24 @@ h5 {font-size: 1.25rem;}
 small, .text_small {font-size: 0.8rem;}
 
 header {
-    // position: absolute;
-    width: 100%;
-
-    background-color: rgba(0, 0, 0, 0.575);
-
-    .title {
-        color: white;
-        display: block;
-        font-size: 4em;
-        margin: .05em 0 0 0;
+    .title {       
+        display: inline-block;
+        margin: 2em auto 0 auto;
         text-align: center;
-        text-decoration: none;
-        
-        &:hover, &:focus {
-            color: black;
-            background: white;
-            transition: 0.2s;
+        width: 100vw;
+
+        .title-link {
+            color: white;
+            font-size: 1.2em;
+            line-height: 1em;
+            padding: .25em 0 0 0;
+            text-decoration: none;
+            
+            &:hover, &:focus {
+                color: black;
+                background: white;
+                transition: 0.2s;
+            }
         }
     }
 
@@ -87,7 +91,7 @@ header {
 .splash {
     object-fit: cover;
     width:100%;
-    height:100vh;
+    height:80vh;
 
     top: 0;
     left: 0;
@@ -96,10 +100,106 @@ header {
 }
 
 .home {
-    margin: 2em;
+    margin: 2.5em;
+
+    .music-embeds {
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    iframe {
+        margin-bottom: 1em;
+    }
 }
 
 .default {
-    margin: 2em;
+    margin: 2.5em auto;
+    max-width: 1000px;
     position: relative;
+    width: 75vw;
 }
+
+footer {
+    border-top: .1em solid white;
+    font-size: 1.2em;
+    margin: 2.5em;
+
+    form {
+        margin-top: 1em;
+        text-align: center;
+
+        label {
+            display: block;
+            line-height: 1.2em;
+        }
+
+        input[type="email"] {
+            &:focus {
+                background-color: #000000;
+                color: rgb(255, 255, 255);
+                outline: .1em solid white;
+            }
+        }
+
+        input[type=submit] {
+            background-color: #ffffff;
+            border: none;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+    
+            // padding: 1em 2em;
+            text-decoration: none;
+            // margin: 4px 2px;
+    
+            transition: 0.2s;
+    
+            &:hover, &:focus {
+                background-color: #000000;
+                color: rgb(255, 255, 255);
+                outline: .1em solid white;
+            }
+        }
+    }
+
+    .social-links {
+        justify-content: center;
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+        font-size: 1.75em;
+        margin: 1em 0;
+
+        a {
+            border-radius: .2em;
+            color: white;
+            padding: 0 .2em;
+            transition: 0.2s;
+    
+            &:hover, &:focus {
+                background-color: white;
+                color: black;
+            }
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .copyright {
+        bottom: 0;
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header nav {
+        font-size: 1.25em;
+        margin: auto 1em;
+    }
+
+    footer .social-links {
+        gap: .3em;
+    }
+  }
