@@ -200,6 +200,7 @@ footer {
     }
 
     footer .social-links {
-        gap: .3em;
+        // gap: .5em;
+        row-gap: 0;
     }
   }
