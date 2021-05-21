@@ -5,9 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: _includes/splash.html
+  path: joebartel/_includes/splash.html
   label: Splash
-  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
