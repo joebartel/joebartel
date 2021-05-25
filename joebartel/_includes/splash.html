@@ -1,9 +1,9 @@
 <!-- This is a section for the splash image or video above a home page -->
 
-{% if page.splash_image_link !== '' %}
+{% if page.splash_image_link != '' %}
 <img class="splash-img" alt="Isosceles Kramer II album cover image" src="/assets/images/{{ page.splash_image_link }}">
 {% endif %}
 
-{% if page.splash_youtube_link !== '' %}
+{% if page.splash_youtube_link != '' %}
 <iframe class="splash-vid" src={{ page.splash_youtube_link }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% endif %}
