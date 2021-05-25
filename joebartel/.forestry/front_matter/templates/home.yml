@@ -21,3 +21,5 @@ fields:
   description: 'If you want to change the video, just change the embed link. NOTE:
     If there''s info for both, both will show up, so make sure to delete the other
     info if you only want one to show.'
+pages:
+- joebartel/index.md
