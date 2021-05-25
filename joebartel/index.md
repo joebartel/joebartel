@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-splash_image_link: ''
+splash_image_link: polar+bear.jpeg
 splash_youtube_link: https://www.youtube.com/embed/Lf8TORJAOPI
 
 ---
