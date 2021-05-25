@@ -1,7 +1,11 @@
 ---
 layout: home
 title: Home
+# If you want a new image to be the splash, add it to the "Media" folder and paste the file name. Example: polar+bear.jpeg
+splash_image_link: 
 
+# If you want to change the video, just change the embed link. NOTE: If there's info for both, both will show up, so make sure to delete the other info if you only want one to show. 
+splash_youtube_link: https://www.youtube.com/embed/Lf8TORJAOPI
 ---
 
 <div class="music-embeds">
