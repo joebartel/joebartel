@@ -1,6 +1,8 @@
 ---
 layout: default
 title: About
+description: About Joe Bartel
+slug: about
 
 ---
 # About
