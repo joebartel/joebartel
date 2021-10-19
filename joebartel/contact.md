@@ -3,10 +3,11 @@ layout: default
 title: Contact
 description: Contact Joe Bartel
 slug: contact
+
 ---
 # Contact
 
-For booking, questions, or intrusive thoughts, email 
+For booking, questions, or intrusive thoughts, email
 [Joe@JoeBartel.com](Joe@JoeBartel.com)
 
 Send gifts, goodies, and baked goods to:
@@ -17,4 +18,6 @@ Minneapolis MN <br />
 </address>
 
 Sign up for my mailing list to stay abreast of all the latest Joe Bartel news:  
-[mailing list code]
+\[mailing list code\]
+
+TEST UPDATE LOOK HERE TO SEE IF IT UPDATED
