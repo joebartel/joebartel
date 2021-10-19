@@ -17,5 +17,5 @@ Minneapolis MN <br />
 55403 <br />
 </address>
 
-Sign up for my mailing list to stay abreast of all the latest Joe Bartel news:  
-\[mailing list code\]
+<!-- Sign up for my mailing list to stay abreast of all the latest Joe Bartel news:  
+\[mailing list code\] -->
