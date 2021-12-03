@@ -7,3 +7,21 @@
 {% if page.splash_youtube_link != '' %}
 <iframe class="splash-vid" src={{ page.splash_youtube_link }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% endif %}
+
+<!-- Put this div in a conditional too later -->
+<div class="two-image-container">
+    {% if page.splash_album_cover != '' %}
+    <a class="splash-img-link" href="{{ page.splash_album_link }}"><img class="splash-img-two-images" alt="ANHEDONIA album cover image" src="/assets/images/{{ page.splash_album_cover }}"></a>
+    {% endif %}
+
+    {% if page.splash_album_back != '' %}
+    <a class="splash-img-link" href="{{ page.splash_album_link }}"><img class="splash-img-two-images" alt="ANHEDONIA album back image" src="/assets/images/{{ page.splash_album_back }}"></a>
+    {% endif %}
+</div>
+
+
+{% if page.splash_album_blurb != '' %}
+<div class="album-blurb">
+    <a href="{{ page.splash_album_link }}">{{ page.splash_album_blurb }}</a>
+</div>
+{% endif %}

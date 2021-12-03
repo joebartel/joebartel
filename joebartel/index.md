@@ -2,7 +2,11 @@
 layout: home
 title: Home
 splash_image_link: ''
-splash_youtube_link: https://www.youtube.com/embed/Lf8TORJAOPI
+splash_youtube_link: ''
+splash_album_cover: ANHEDONIA_Cover.jpg
+splash_album_back: ANHEDONIA_Back.jpg
+splash_album_blurb: New EP 'ANHEDONIA' available now!!
+splash_album_link: https://joebartel.bandcamp.com/album/anhedonia
 
 ---
 <div class="music-embeds">
