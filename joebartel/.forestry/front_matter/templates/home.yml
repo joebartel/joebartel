@@ -21,5 +21,21 @@ fields:
   description: 'If you want to change the video, just change the embed link. NOTE:
     If there''s info for both the image(s) and video, both will show up, so make sure to delete the other
     info if you only want one to show.'
+- type: text
+  name: splash_album_cover
+  label: splash_album_cover
+  description: 'Is it new album time? Do you want to show two images side by side? If so, paste the file names for each image here and below.'
+- type: text
+  name: splash_album_back
+  label: splash_album_back
+  description: 'Back over (or second image). See above.'
+- type: text
+  name: splash_album_blurb
+  label: splash_album_blurb
+  description: 'The text under the new album pictures to say "click here"'
+- type: text
+  name: splash_album_link
+  label: splash_album_link
+  description: 'Both the album cover pictures and the blurb will be clickable to whatever link you put here.'    
 pages:
 - joebartel/index.md
